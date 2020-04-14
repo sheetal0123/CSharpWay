@@ -33,18 +33,45 @@ namespace CSharpWay
             int a = 100;
             int b = 10;
 
-            Console.WriteLine(a+b);
-            Console.WriteLine(a-b);
-            Console.WriteLine(a*b);
-            Console.WriteLine(a/b);
-            Console.WriteLine(a%b);
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.WriteLine(a * b);
+            Console.WriteLine(a / b);
+            Console.WriteLine(a % b);
         }
 
-        static void Main(String[] args)
+        public static void booleanOperator()
+        {
+            int a = 10;
+            int b = 20;
+            int c = 30;
+
+            if (c > b && b > a)
+            {
+                Console.WriteLine("Logical AND");
+            }
+
+            if (c == b || b > a)
+            {
+                Console.WriteLine("Logical OR");
+            }
+        }
+
+        public static void compoundOperator()
+        {
+            int a = 10;
+            Console.WriteLine(a += 5); // a = a+5
+            Console.WriteLine(a *= 5); // a = a*5
+            Console.WriteLine(a %= 5); // a = a%5
+        }
+
+        static void main(String[] args)
         {
             //signOperator();
             //castingOperatorAndOthers();
-            ArithematicOperators();
+            //ArithematicOperators();
+            //booleanOperator();
+            compoundOperator();
         }
     }
 }

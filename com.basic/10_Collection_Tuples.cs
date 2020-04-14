@@ -9,12 +9,13 @@ namespace CSharpWay
         public static void TuplesBasic()
         {
             Console.WriteLine("----------------------");
-            var words = ("Welcome", "to", "C#", "world");
+            var words = ("Welcome", 2, "C#", "world");
             Console.WriteLine (words);
-
-            Console.WriteLine("----------------------");
-            Console.WriteLine(words.Item1);
-            Console.WriteLine(words.Item3);
+            
+            int a = words.Item2;
+            string b = words.Item3;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
 
             Console.WriteLine("----------------------");
             //similar to Java HashMap
