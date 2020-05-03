@@ -4,22 +4,24 @@ namespace CSharpWay
 {
     class Exceptions_Overflow
     {
-        //byte range 0 to 255
-        public static void resetMethod()
+        public static void uncheckedOverflowEg()
         {
-            Console.WriteLine("-----------------------");
-            byte a = 254;
-            Console.WriteLine (a); //254
-            a++;
-            Console.WriteLine (a); //255
-            a++;
-            Console.WriteLine (a); //0
-            a++;
-            Console.WriteLine (a); //1
-            Console.WriteLine("-----------------------");
+            int a = 2147483647;
+            Console.WriteLine("Max Range of Int: " + a);
+
+            int res = unchecked(a + 1);
+            Console.WriteLine("Unchecked: " + res);
         }
 
-        public static void checkedMethod()
+        public static void overflowSaved()
+        {
+            int a = 2147483647;
+            int res = checked(a + 1);
+            Console.WriteLine("Checked: " + res);
+        }
+
+
+        public static void overflowSaved2()
         {
             checked
             {
@@ -34,10 +36,15 @@ namespace CSharpWay
             }
         }
 
+
         static void main(String[] args)
         {
-            resetMethod();
-            checkedMethod();
+            Console.WriteLine("======= * ======= * ======= * =======");
+            uncheckedOverflowEg();
+            //overflowSaved();
+            Console.WriteLine("======= * ======= * ======= * =======");
+            //overflowSaved2();
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
     }
 }

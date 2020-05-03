@@ -2,6 +2,7 @@
 
 1. Download VSCode Editor  | https://code.visualstudio.com/download
 or Can temporarily use interactive pad  |  http://csharppad.com/
+or Visual Studio 2019 (Full IDE like Eclispe) https://visualstudio.microsoft.com/downloads/
 
 2. .NET Core SDK     |  https://dotnet.microsoft.com/download
    open cmd and test installed verison
@@ -20,6 +21,14 @@ or Can temporarily use interactive pad  |  http://csharppad.com/
    Will create a new hellow world .cs file 
 
 6. dotnet run
+
+Note:
+In Visual Studio
+Go to Tools > CommandLine > Dev Command Line or Powershell (any)
+dotnet run
+
+Make sure in all .cs classes only one class can have Main method with capital M
+If you have more classes then update them with small 'm' temporary
 
 */
 

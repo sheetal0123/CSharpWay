@@ -16,7 +16,7 @@ namespace CSharpWay
     {
         public static void varType()
         {
-            Console.WriteLine("------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
 
             //var type automatically assigned by C# compiler
             //var can hold int, string , list etc
@@ -26,7 +26,7 @@ namespace CSharpWay
             System.Console.WriteLine(name.GetType());
             System.Console.WriteLine(age.GetType());
             System.Console.WriteLine("{0} is {1} years old", name, age);
-            Console.WriteLine("------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
 
         public static void simpleVars()
@@ -46,7 +46,7 @@ namespace CSharpWay
             Console.WriteLine (flag);
             Console.WriteLine (str);
             Console.WriteLine (INR);
-            Console.WriteLine("------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
 
         public static void algebricCalc()
@@ -74,7 +74,7 @@ namespace CSharpWay
                 Console.WriteLine("P & Q are un-equal");
             }
 
-            Console.WriteLine("------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
 
         public static void floatTest()

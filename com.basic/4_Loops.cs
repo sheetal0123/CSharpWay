@@ -1,29 +1,68 @@
 ﻿using System;
+using System.Collections.Generic;
 
+/*
+ * while, plain for loop
+ */
 namespace CSharpWay
 {
     class Loops
     {
-        static void main(string[] args)
-        {
-            Console.WriteLine("----------------------------------------------");
 
-            int i = 1;
-            while (i <= 10)
+        public static void whileLoop()
+        {
+            int i = 90;
+            while (i <= 100)
             {
                 Console.WriteLine("SrNo: " + i);
                 i++;
             }
+            Console.WriteLine("======= * ======= * ======= * =======");
+
+        }
 
 
-            Console.WriteLine("----------------------------------------------");
-
+        public static void forLoop()
+        {
             for (int j = 0; j <= 10; j++)
             {
                 Console.WriteLine("SrNo: " + j);
+
+                if (j == 7)
+                    break;
+            }
+            Console.WriteLine("======= * ======= * ======= * =======");
+
+        }
+
+
+        public static void advForLoop()
+        {
+            string[] arr = new string[] {"abc","def","ghi" };
+            foreach (string str in arr)
+            {
+                Console.WriteLine(str);
             }
 
-            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
+
+
+            List<string> ls = new List<string>();
+            ls.Add("alpha");
+            ls.Add("bravo");
+            foreach (string str in ls)
+            {
+                Console.WriteLine(str);
+            }
+        }
+
+
+
+        static void main(string[] args)
+        {
+            whileLoop();
+            forLoop();
+            advForLoop();
         }
     }
 }

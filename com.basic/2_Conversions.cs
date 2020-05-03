@@ -6,7 +6,7 @@ namespace CSharpWay
     {
         public static void str2Int()
         {
-            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
 
             string x = "10";
             string y = "20";
@@ -17,9 +17,10 @@ namespace CSharpWay
             Console.WriteLine("String -> int Convertion: " + sum);
         }
 
-        static void main(string[] args)
+
+        public static void int2String()
         {
-            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
 
             //int to Str
             int i = 10;
@@ -29,10 +30,13 @@ namespace CSharpWay
             string s2 = "This is explicit conversion: " + strI;
             Console.WriteLine("int -> Str : " + s1);
             Console.WriteLine("int -> Str : " + s2);
+        }
 
-            Console.WriteLine("-----------------------------------");
 
-            //int -> bool
+        public static void int2Bool()
+        {
+            Console.WriteLine("======= * ======= * ======= * =======");
+
             // 0 is False rest everything is True
             int a = 0;
             int b = -3;
@@ -43,7 +47,13 @@ namespace CSharpWay
             Console.WriteLine(a + " -> " + flagA);
             Console.WriteLine(b + " -> " + flagB);
             Console.WriteLine(c + " -> " + flagC);
-            Console.WriteLine("-----------------------------------");
+        }
+
+        static void main(string[] args)
+        {
+            str2Int();
+            int2String();
+            int2Bool();
         }
     }
 }

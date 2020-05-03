@@ -5,7 +5,6 @@ namespace CSharpWay
     class Animal
     {
         int legs = 4;
-
         string living = "Land";
 
         public string getLiving()

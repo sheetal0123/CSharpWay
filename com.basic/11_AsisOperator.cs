@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AsisOperator
+namespace AsIsOperator
 {
     class BaseClass { }
 
@@ -15,15 +15,13 @@ namespace AsisOperator
 
             Console.WriteLine(baseObj is BaseClass);
             Console.WriteLine(derivedObj is BaseClass);
-            Console.WriteLine("----------------------");
             Console.WriteLine(baseObj is Object);
             Console.WriteLine(baseObj is DerivedClass);
-            Console.WriteLine("----------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
 
         public static void asOperator()
         {
-            Console.WriteLine("----------------------");
             object[] objects = new object[4];
             objects[0] = "C# World";
             objects[1] = 12;
@@ -32,7 +30,7 @@ namespace AsisOperator
 
             for (int i = 0; i < objects.Length; i++)
             {
-                string str = objects[i] as string;
+                string str = objects[i] as string; // converting
                 //Console.Write("{0}:", i);
 
                 if (str != null)
@@ -44,12 +42,12 @@ namespace AsisOperator
                     Console.WriteLine("not a string");
                 }
             }
-            Console.WriteLine("----------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
 
         static void main(string[] args)
         {
-            //isOperator();
+            isOperator();
             asOperator();
         }
     }

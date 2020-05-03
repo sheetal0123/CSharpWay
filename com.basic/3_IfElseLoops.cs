@@ -6,7 +6,7 @@ namespace CSharpWay
     {
         static void main(string[] args)
         {
-            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
 
             int a = 10;
             int b = 10;
@@ -19,7 +19,7 @@ namespace CSharpWay
                 Console.WriteLine("Var r not equal");
             }
 
-            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
 
             int m = 10;
             int n = 20;
@@ -32,7 +32,7 @@ namespace CSharpWay
                 Console.WriteLine("Number are unequal");
             }
 
-            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
 
             int num = 5;
             switch (num)
@@ -48,7 +48,7 @@ namespace CSharpWay
                     break;
             }
 
-            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
     }
 }

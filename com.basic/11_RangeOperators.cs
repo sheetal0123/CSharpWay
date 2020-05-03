@@ -9,14 +9,14 @@ namespace CSharpWay
         {
             int[] intArray = { 10, 11, 12, 13, 14, 15 };
             string filteredString = String.Join("#",intArray[1..4]);
-            int [] filteredArray = intArray[1..4];
-            Console.WriteLine(filteredString);
+            Console.WriteLine(filteredString); // 11#12#13
 
+            int[] filteredArray = intArray[0..4]; // 10,11,12,13  
             for (int i = 0; i < filteredArray.Length; i++){
                 Console.WriteLine(filteredArray[i]);
             }
 
-            Console.WriteLine("-----------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
 
 
@@ -29,7 +29,7 @@ namespace CSharpWay
                 Console.WriteLine(filteredArray[i]);
             }
 
-            Console.WriteLine("-----------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
 
 
@@ -42,16 +42,16 @@ namespace CSharpWay
                 Console.WriteLine(filteredArray[i]);
             }
 
-            Console.WriteLine("-----------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
 
 
 
         static void main(String[] args)
         {
-//            RangeOperatorEg();
-//            RangeOperatorEg2();
-              RangeOperatorEg3();
+            RangeOperatorEg();
+            RangeOperatorEg2();
+            RangeOperatorEg3();
         }
     }
 }

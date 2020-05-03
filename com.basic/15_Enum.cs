@@ -61,7 +61,7 @@ namespace CSharpWay
 
         static void main(String[] args)
         {
-            EnumWithDefaultValues();
+              EnumWithDefaultValues();
             EnumWithDefinedValues();
         }
     }

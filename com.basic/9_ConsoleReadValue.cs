@@ -4,7 +4,7 @@ namespace CSharpWay
 {
     class ReadValue
     {
-        static void main(String[] args)
+        static void Main(String[] args)
         {
             Console.Write("What is your name?");
             string name = Console.ReadLine();
@@ -12,7 +12,7 @@ namespace CSharpWay
             Console.Write("What is your age?");
             int age = Convert.ToInt16(Console.ReadLine());
            
-            Console.WriteLine("Hello "+ name+"  & your  age is: "+ age);
+            Console.WriteLine("Hello "+ name+", its your "+ age + "th Birthday");
         }
     }
 }

@@ -13,26 +13,26 @@ namespace CSharpWay
     {
         static void main(string[] args)
         {
-            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
             int num1 = 31;
-            int num2 = 0xA;     //10
+            int num2 = 0xA;    //10
             int num3 = 0b100;  //4
 
             Console.WriteLine(num1);
             Console.WriteLine(num2);
             Console.WriteLine(num3);
-           
-            Console.WriteLine("-----------------------------------");
 
+            Console.WriteLine("======= * ======= * ======= * =======");
 
+            //Underscore can be added in decimal, binary and Hexa for redability
             int num4 = 264_321_000;
-            int num5 = 0x3_C;     //10
-            int num6 = 0b_0110_000_100;  //4
+            int num5 = 0x_A;       //10
+            int num6 = 0b_1000;    //8
 
             Console.WriteLine(num4);
             Console.WriteLine(num5);
             Console.WriteLine(num6);
-            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("======= * ======= * ======= * =======");
         }
     }
 }

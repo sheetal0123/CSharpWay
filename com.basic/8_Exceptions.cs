@@ -12,9 +12,9 @@ namespace CSharpWay
             {
                 int a = Convert.ToInt16(abc);
             }
-            catch (Exception e)
+            catch (FormatException e)
             {
-                Console.WriteLine("exception caught:  " + e.StackTrace);
+                Console.WriteLine("Exception caught:  " + e.StackTrace);
             }
         }
     }
