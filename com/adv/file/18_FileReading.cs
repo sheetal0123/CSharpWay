@@ -7,7 +7,7 @@ namespace CSharpWay
     {
         public static void ReadCSVFile()
         {
-            string textFile = "D:\\MyCloud\\myworkspace\\CSharpWay\\com.basic\\abc.csv";
+            string textFile = "D:\\MyCloud\\myworkspace\\CSharpWay\\com.adv\\file\\abc.csv";
             if (File.Exists(textFile))
             {
                 using (StreamReader file = new StreamReader(textFile))

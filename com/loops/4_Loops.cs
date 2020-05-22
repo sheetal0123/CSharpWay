@@ -9,7 +9,7 @@ namespace CSharpWay
     class Loops
     {
 
-        public static void whileLoop()
+        public static void WhileLoop()
         {
             int i = 90;
             while (i <= 100)
@@ -22,7 +22,7 @@ namespace CSharpWay
         }
 
 
-        public static void forLoop()
+        public static void ForLoop()
         {
             for (int j = 0; j <= 10; j++)
             {
@@ -36,7 +36,7 @@ namespace CSharpWay
         }
 
 
-        public static void advForLoop()
+        public static void ForEachLoop()
         {
             string[] arr = new string[] {"abc","def","ghi" };
             foreach (string str in arr)
@@ -60,9 +60,9 @@ namespace CSharpWay
 
         static void main(string[] args)
         {
-            whileLoop();
-            forLoop();
-            advForLoop();
+            WhileLoop();
+            ForLoop();
+            ForEachLoop();
         }
     }
 }

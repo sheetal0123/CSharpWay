@@ -1,0 +1,27 @@
+﻿
+#Collection Type:
+Non-Generic (System.Collections)
+Generic (System.Collections.Generic)
+Concurrent (System.Collections.Concurrent)
+
+#Non Generic:
+ArrayList : Array of objects whose size is dynamically increased as required
+Queue :	FIFO collection of objects.
+Stack :	LIFO collection of objects.
+Hashtable :	Collection of key/value pairs that are organized based on the hash code of the key.
+
+#Generic:
+List	list of objects that can be accessed by index.
+Queue<>	FIFO (First in, First Out) collection of objects.
+Stack<>	LIFO (Last in, First Out) collection of objects.
+SortedList<K,V>	collection of key/value pairs that are sorted by a key.
+Dictionary<K,V>	collection of key/value pairs that are organized based on the key.
+
+#Concurrent: use in case of multi threading
+BlockingCollection	: provide blocking and bounding capabilities for thread-safe collections.
+ConcurrentBag	: represent a thread-safe, unordered collection of objects.
+ConcurrentDictionary<K,V> : represent a thread-safe collection of key/value pairs that can be accessed by multiple threads concurrently.
+ConcurrentQueue	: represent a thread-safe FIFO
+ConcurrentStack	: represent a thread-safe LIFO
+Partitioner	: provide partitioning strategies for arrays, lists, enumerables.
+OrderablePartitioner :	provide a specific way of splitting an orderable data source into multiple partitions.

@@ -23,7 +23,7 @@
     _age = age;
   }
 
-  Note: We cant call obj.GetAge() 
+  Note: We CANT call obj.GetAge() 
   
  */
 

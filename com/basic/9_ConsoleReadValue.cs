@@ -4,7 +4,7 @@ namespace CSharpWay
 {
     class ReadValue
     {
-        static void Main(String[] args)
+        static void main(String[] args)
         {
             Console.Write("What is your name?");
             string name = Console.ReadLine();

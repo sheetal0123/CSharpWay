@@ -7,7 +7,7 @@ namespace CSharpWay
     class MyAgeClass
     {
         public int age { get; set; }
-
+        
         
         public MyAgeClass(int a)  //constructor
         {

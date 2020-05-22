@@ -1,1 +1,1 @@
-#To format the code:   Alt Shf F
+#To format the code:   Cntr K+D   / Edit > Adv > Format Document
